@@ -34,6 +34,8 @@ Useful shortcuts:
 - Ctrl + R: Reset plot
 - Ctrl + S: Save plot
 
+Its worth mentioning that, when closing the application, any data that was displayed on the plot will be returned as a dictionary. (e.g. `{'Fz - Cz': [np.ndarray], ...}`)
+
 If you prefer to run via code, you can find the methods functions:
 ```python
 from erp_phase_analysis import calculate_cross_spectrum_hilbert,
