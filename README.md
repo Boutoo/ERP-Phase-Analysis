@@ -33,6 +33,7 @@ Useful shortcuts:
 - Ctrl + A: Add selected channels to plot.
 - Ctrl + R: Reset plot
 - Ctrl + S: Save plot
+- Ctrl + Q: Close application
 
 Its worth mentioning that, when closing the application, any data that was displayed on the plot will be returned as a dictionary. (e.g. `{'Fz - Cz': [np.ndarray], ...}`)
 
